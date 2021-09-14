@@ -38,13 +38,13 @@ from package import weather_package
 #텍스트 음성 변환 및 자동 클릭 패키지
 from package import tts_package,click_package
 
-# Enable logging
+# Enable logginghttps://github.com/ShakaJyan/TELBI/blob/main/TELBI.py
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
 )
 
 logger = logging.getLogger(__name__)
-TOKEN = "1709776665:AAF-sEQXF2TAW67-aOno7o4zrDoiGSeeRrU"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 now = time.localtime()
 chat_id = 1598663873
