@@ -18,7 +18,6 @@ import schedule   #pip install schedule
 import threading
 from gtts import gTTS #pip install gTTS
 import pyautogui as pag  #pip install pyautogui
-import pywinauto    #pip install pywinauto
 import pygetwindow as gw
 
 #음식 패키지
