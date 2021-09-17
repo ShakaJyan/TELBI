@@ -48,10 +48,10 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger(__name__)
-TOKEN = "1709776665:AAF-sEQXF2TAW67-aOno7o4zrDoiGSeeRrU"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 now = time.localtime()
-chat_id = 1598663873
+chat_id = 
 
 opts = webdriver.ChromeOptions()
 opts.add_argument('window-size=960,750')
